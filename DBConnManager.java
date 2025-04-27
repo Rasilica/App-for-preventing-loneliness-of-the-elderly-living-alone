@@ -7,7 +7,7 @@ public class DBConnManager {
 	static String dbServerAddr = "jdbc:mysql://127.0.0.1:3320/";
 	static String dbName = "dd"; // 여러분 DB 이름으로 수정
 	static String user = "root"; // 여러분 계정 이름으로 수정
-	static String pswd = "chorokad0500"; // 여러분 비밀번호로 수정
+	static String pswd = "password"; // 여러분 비밀번호로 수정
 	
 	// DB 연결 설정
 	public static Connection getConnection() throws SQLException {
